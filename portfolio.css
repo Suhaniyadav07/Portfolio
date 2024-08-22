@@ -1,0 +1,924 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+
+.nav-bar{
+    height: 70px;
+    width: 100%;
+    /* background-color: #04060b; */
+       background-color: #101316; 
+   align-items: center;
+   display: flex;
+   position:fixed;
+   z-index: 1000;
+   
+  
+}
+.logo{
+    height: 50px;
+    width: 1px;
+   color: white;
+font-size: 25px;
+align-items: center;
+text-align: center;
+margin: 100px;
+font-family: "Roboto Slab", serif;
+font-weight: 400;
+font-style: normal;
+ 
+}
+.logo2{
+  height: 50px;
+  width: 1px;
+ color:#65a2eb;
+font-size: 25px;
+align-items: center;
+text-align: center;
+margin: 100px;
+font-family: "Roboto Slab", serif;
+font-weight: 400;
+font-style: normal;
+position: relative;
+right: 159px;
+
+
+
+
+
+
+
+
+
+}
+.links{
+    height: 50px;
+/* width: auto; */
+   display: flex;
+   justify-content: space-around; 
+  margin-left: 460px;
+
+}
+
+
+.click-me{
+
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+  margin-right: 20px;
+  transition: 10ms; 
+
+}
+.click-me:hover{
+    text-shadow: 0 6px 10px aqua;
+}
+.second-section{
+    height: 100vh;
+
+    background-color: #04060b;
+
+   
+}
+
+
+.photo-logo{
+  
+  
+  height: 400px;
+  width: 400px;
+  background-image: url('Photograph2.jpg');
+  background-size: cover;
+  position: relative;
+  left: 60%;
+  top: 150px;
+  border-radius: 90%;
+  box-shadow: 0  10px 10px #85a1d4;
+  animation: photo-logo 4s forwards;
+
+  
+}
+
+
+
+@keyframes photo-logo {
+  from {
+      transform: translateX(-100%); 
+  }
+  to {
+      transform: translateX(0); 
+  }
+} 
+
+
+
+.photo-logo:hover{
+box-shadow: 0 10px 20px rgb(136, 154, 154);
+transform: scale(1.05);
+}
+.intro{
+  height: 350px;
+  width: 550px;
+  position: relative;
+  left: 5%;
+  bottom: 40%;
+  transition: ease-in-out;
+padding-top: 100px;
+  
+}
+
+.line1{
+  height: 40px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  text-decoration: none;
+margin-right: 20px;
+
+
+}
+ 
+.line2{
+  height: 55px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 40px;
+  padding: 10px;
+  text-decoration: none;
+margin-right: 20px;
+animation: line2 4s forwards; /* Apply the slide-in animation */
+}
+
+
+
+@keyframes line2 {
+from {
+    transform: translateX(-100%); /* Start off-screen to the left */
+}
+to {
+    transform: translateX(0); /* End at the original position */
+}
+}
+.line3{
+  height: 45px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 35px;
+  padding: 10px;
+  text-decoration: none;
+margin-right: 20px;
+}
+.line3-2{
+height: 20px;
+color:#65a2eb; 
+font-family: "Roboto Slab", serif;
+font-weight: 400;
+font-style: normal;
+text-decoration: none;
+font-size: 40px;
+padding: 10px;
+text-decoration: none;
+margin-right: 20px;
+
+position: relative;
+left: 22%;
+bottom: 50px;
+text-shadow: 0  10px 10px #85a1d4;
+}
+
+
+
+.line4{
+height: 45px;
+color: white;
+font-family: "Roboto Slab", serif;
+font-weight: 400;
+font-style: normal;
+text-decoration: none;
+font-size: 20px;
+padding: 10px;
+text-decoration: none;
+margin-right: 20px;
+
+}
+.socialmedia{
+  width: 400px;
+   position: relative;
+  bottom: 220px;
+  left: 50px;
+  display: flex;
+  animation: socialmedia 4s forwards;
+}
+
+
+
+.about{
+    height: 40px;
+    width: 130px;
+    font-size: 20px;
+    position: relative;
+    bottom: 680px;
+    left: 10%;
+    border-radius: 40%;
+    font-family: "Roboto Slab", serif;
+    
+   }
+
+   .About{
+    height: 100vh;
+    background-color: #04060b;
+
+  }
+
+   .container{
+    height: 100px;
+    width: 600px;
+    position: relative;
+    left: 50%;
+    bottom: 300px;
+   }
+
+
+   .about-me{
+    height: 100px;
+    width: auto;
+   }
+
+
+   .heading{
+    font-size: 50px;
+    text-align: left;
+    font-family: "Roboto Slab", serif;
+    color: aliceblue;
+    position: relative;
+    top: 130px;
+    text-shadow: 0  10px 10px #85a1d4;
+  
+   }
+
+
+   .heading-2{
+    font-size: 50px;
+    text-align: left;
+    font-family: "Roboto Slab", serif;
+    position: relative;
+    top: 73px;
+    left: 130px;
+    color: #65a2eb;
+    text-shadow: 0  10px 10px #85a1d4;
+   }
+   .developer{
+    font-size: 35px;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    position: relative;
+    top: 85px;
+    color: aliceblue;
+    text-align: left;
+    text-shadow: 0  10px 10px #85a1d4;
+   }
+
+   .content{
+    font-size: 18px;
+    position: relative;
+    top: 85px;
+    font-family: "Roboto Slab", serif;
+    color: aliceblue;
+   }
+
+
+   .photo-logo1{
+   
+    height: 340px;
+    width: 400px;
+    border-radius: 1%;
+    background-image: url('Photograph2.jpg');
+    position: relative;
+   left: 14%;
+   top: 200px;
+    background-size: cover;
+    box-shadow: 0  10px 10px #85a1d4;
+    animation: photo-logo1 3s forwards;
+  }
+
+  @keyframes photo-logo1 {
+  from{
+    transform: translateX(100%);
+  }  
+  to{
+    transform: translateX(0);
+  }
+  }
+  .photo-logo1:hover{
+    box-shadow: 0 10px 25px rgb(136, 154, 154);
+    transform: scale(1.05);
+    }
+    .border{
+      height: 340px;
+      border: 5px solid white;
+    }
+
+
+
+  .More{
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    top: 500%;
+    border-radius: 20%;
+    background-color: #65a2eb;
+    color: white;
+
+  }
+
+  .services{
+    height: 100vh;
+    background-color: #04060b;
+    
+  }
+
+  .myservices{
+    height: 250px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .serviceheading{
+    height: 40px;
+    width:100px;
+    font-size: 70px;
+   color: white;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    text-shadow: 0  10px 10px #85a1d4;
+   
+  }
+  .serviceheading1{
+    height: 40px;
+    width:100px;
+    font-size: 70px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    color: #65a2eb;
+    text-shadow: 0  10px 10px #85a1d4;
+
+  }
+  .WebDesign{
+    height: 420px;
+    width: 100%;
+    color: #65a2eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+  }
+
+  .WebDesign0{
+    height: 350px;
+    width: 35%;
+    color: #65a2eb;
+    margin: 30px;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    background-color: #101316; 
+    border-radius: 20%;
+   
+    box-shadow: 0  10px 10px #1b1c1d;
+    
+   
+  }
+
+  .paragraph{
+    font-size: 18px;
+    text-align: left;
+    margin: 20px;
+  }
+  .WebDesign1{
+    height: 350px;
+    width: 30%;
+    color: #65a2eb;
+    margin: 30px;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    background-color: #101316; 
+    border-radius: 20%;
+   
+    box-shadow: 0  10px 10px #1b1c1d;
+  
+  }
+  .WebDesign2{
+  
+    height: 350px;
+    width: 30%;
+    color: #65a2eb;
+    margin: 30px;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    background-color: #101316; 
+    border-radius: 20%;
+    
+    box-shadow: 0  10px 10px #1b1c1d;
+  }
+  .learnmore{
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+     background-color: #65a2eb;
+     color: white;
+     border-top-right-radius: 30px;
+     border-bottom-left-radius: 30px;
+     position: relative;
+     right: 150px;
+     box-shadow: 0  10px 10px #1b1c1d;
+     
+     
+    
+  }
+
+  .WebDesign0:hover{
+    box-shadow: 0 10px 20px rgb(136, 154, 154);
+
+  }
+  .WebDesign1:hover{
+    box-shadow: 0 10px 20px rgb(136, 154, 154);
+
+  }
+  .WebDesign2:hover{
+    box-shadow: 0 10px 20px rgb(136, 154, 154);
+
+  }
+ 
+  .skills-section{
+    height: 100vh;
+    background-color: #04060b;
+  }
+  .skills{
+    height: 250px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill-heading1{
+    height: 40px;
+    width:100px;
+    font-size: 70px;
+   color: white;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    text-shadow: 0  10px 10px #85a1d4;
+
+  }
+  .skill-heading2{
+    height: 40px;
+    width:100px;
+    font-size: 70px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    color: #65a2eb;
+    text-shadow: 0  10px 10px #85a1d4;
+
+  }
+
+  .subjects{
+    height:220px;
+   
+    margin: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .sub1,
+  .sub2,
+  .sub3,.sub4{
+
+    height: 200px;
+    width: 20%;
+    margin: 30px;
+   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    background-color: #101316; 
+    text-shadow: 0  10px 10px #85a1d4;
+    box-shadow: 0  10px 10px #1b1c1d;
+  
+
+  }
+
+  .subjects1{
+    height:220px;
+   margin: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .sub5,
+  .sub6,
+  .sub7,.sub8{
+    height: 200px;
+    width: 20%;
+    margin: 30px;
+   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-color: #101316; 
+    text-shadow: 0  10px 10px #85a1d4;
+    box-shadow: 0  10px 10px #1b1c1d;
+  }
+
+  .sub1:hover{
+    box-shadow: 0 10px 20px rgb(136, 154, 154);
+  }
+  .sub2:hover{
+    box-shadow: 0 10px 20px rgb(136, 154, 154);
+  }
+  .sub3:hover{
+    box-shadow: 0 10px 20px rgb(136, 154, 154);
+  }
+  .sub4:hover{
+    box-shadow: 0 10px 20px rgb(136, 154, 154);
+  }
+  .sub5:hover{
+    box-shadow: 0 10px 20px rgb(136, 154, 154);
+  }
+  .sub6:hover{
+    box-shadow: 0 10px 20px rgb(136, 154, 154);
+  }
+  
+  .sub7:hover{
+    box-shadow: 0 10px 20px rgb(136, 154, 154);
+  }
+  .sub8:hover{
+    box-shadow: 0 10px 20px rgb(136, 154, 154);
+  }
+
+
+  .project{
+
+    height: 100vh;
+    background-color: #04060b;
+
+  }
+
+  .project-1{
+    height: 250px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+
+
+  .project-heading{
+    height: 40px;
+    width:100px;
+    font-size: 70px;
+    color: #65a2eb;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    text-shadow: 0  10px 10px #85a1d4;
+
+  }
+  .type{
+    height: 420px;
+    width: 100%;
+    color: #65a2eb;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+   
+    
+
+  }
+
+  .proj1,
+  .proj2,
+  .proj3{
+    height: 450px;
+    width: 25%;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-color: #101316; 
+    border-radius: 20%;
+    text-shadow: 0  10px 10px #85a1d4;
+    box-shadow: 0  10px 10px #1b1c1d;
+   
+
+  }
+  .proj1:hover{
+    box-shadow: 0 10px 20px rgb(136, 154, 154);
+  }
+  .proj2:hover{
+    box-shadow: 0 10px 20px rgb(136, 154, 154);
+  }
+  .proj3:hover{
+    box-shadow: 0 10px 20px rgb(136, 154, 154);
+  }
+
+  .project-button{
+    height: 40px;
+    width: 70px;
+    background-color: #65a2eb;
+    position: relative;
+    right: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color: white;
+    cursor: pointer;
+    
+  }
+  .project-button:hover{
+    box-shadow: 0 10px 20px rgb(136, 154, 154);
+  }
+
+  
+
+
+  .contact{
+
+    height: 100vh;
+    background-color: #04060b;
+
+  }
+
+  .contact-1{
+
+    height: 250px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .contact-heading{
+    height: 40px;
+    width:100px;
+    font-size: 70px;
+   color: white;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    text-shadow: 0  10px 10px #85a1d4;
+
+  }
+  .contact-heading1{
+    height: 40px;
+    width:100px;
+    font-size: 70px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    color: #65a2eb;
+    margin: 120px;
+    text-shadow: 0  10px 10px #85a1d4;
+
+  }
+
+  /* .contact-heading,
+  .contact-heading1,:hover{
+
+    text-shadow: 0 10px 20px rgb(136, 154, 154);
+
+
+  } */
+.contact-me{
+  height: 420px;
+  width: 100%;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+ 
+}
+
+  .form{
+    height: 500px;
+    width: 700px;
+    background-color:#101316;
+    /* background-color: #65a2eb; */
+    box-shadow: 0  10px 10px #1b1c1d;
+  }
+
+  input{
+    height: 50px;
+    width: 310px;
+    margin: 15px;
+    background-color: #101316;
+    color: #65a2eb;
+    box-shadow: 0  10px 10px #1b1c1d;
+
+  }
+  textarea{
+    margin: 10px;
+    background-color: #101316;
+    color: #65a2eb;
+    box-shadow: 0  10px 10px #1b1c1d;
+  }
+  .button1{
+    height: 40px;
+    width: 80px;
+    background-color: #65a2eb;
+    color: white;
+    position: relative;
+    left: 40%;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+  }
+
+  .button1:hover{
+
+    box-shadow: 0 10px 20px rgb(136, 154, 154);
+
+
+  }
+
+ 
+  
+
+
+
+
+ 
+  
+
+@keyframes socialmedia {
+  from{
+    transform: translateX(-100%);
+  }
+  to{
+    transform: translateX(0);
+
+  }
+  
+}
+  
+.git,
+.insta,
+.gamil,
+.twitter{
+  background-color: #04060b;
+  border: none;
+  color: #f9f9f9;
+}
+@media (max-width:600px) {
+  .second-section{
+    font-size:50%;
+  }
+  
+}
+
+
+ @media  (max-width:600px) {
+  html{
+    font-size: 100%;
+  }
+  
+ 
+  
+}
+ @media (max-width: 450px) {
+
+  html{
+    background-color: #04060b;
+    font-size: 50%;
+  }
+  .photo-logo{
+   position: relative;
+   top: 100px;
+   left: 50%;
+
+  }
+  .intro p{
+    position: relative;
+     top: 320px;
+     font-size: 40px;
+     width: 100vh;
+
+  }
+  .intro .line3{
+    position: relative;
+     top: 320px;
+     
+
+  }
+  .intro .line3-2{
+    position: relative;
+     bottom: 55px;
+
+  }
+   .socialmedia{
+    position: relative;
+    top: 70px;
+  }
+  .photo-logo1 border{
+    position: relative;
+   top: 100px;
+   left: 50%;
+  }
+  .about-me{
+    position: relative;
+    right: 30%;
+  }
+   .heading-2{
+    position: relative;
+    top: 20px;
+  }
+  .heading{
+    position: relative;
+    top: 75px;
+  }
+  .developer{
+    position: relative;
+    top: 400px;
+  }
+  .content{
+    position: relative;
+    top: 450px;
+    font-size: 22px;
+     width: 100vh;
+  }
+  .More{
+    position: relative;
+    top: 550px;
+   right: 30%;
+  }
+  .WebDesign{
+   align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 100vh;
+    position: relative;
+    top: 200px;
+  }
+  .WebDesign button{
+    position: relative;
+    left: 10px;
+  }
+  .skills-section{
+    position: relative;
+    top: 300px;
+    align-items: center;
+    width: 100vh;
+  }
+  .project-heading{
+   position: relative;
+   top: 100px;
+   left: 50%;
+  }
+  .type{
+    position: relative;
+    top: 200px;
+    align-items: center;
+    width: 100vh;
+    height: 220px;
+  }
+  .type img{
+    height:350px;
+    width: 200px;
+   
+  }
+  .project-button{
+    position: relative;
+    bottom: 20px;
+  }
+  .contact{
+    width: 100vh;
+   
+  }
+} 
