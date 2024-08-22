@@ -818,6 +818,9 @@ margin-right: 20px;
     background-color: #04060b;
     font-size: 50%;
   }
+  .links{
+    display: none;
+  }
   .photo-logo{
    position: relative;
    top: 100px;
