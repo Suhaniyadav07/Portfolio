@@ -853,7 +853,9 @@ left: 80px;
   html{
     background-color: #04060b;
     font-size: 50%;
-    width: 100vh;
+  }
+  .second-section{
+    height: 100vh;
   }
   .links{
     display: none;
