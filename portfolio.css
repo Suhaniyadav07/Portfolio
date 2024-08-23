@@ -910,23 +910,24 @@ left: 80px;
    .heading-2{
     position: relative;
     top: 20px;
-    right: 40px;
-  }
+    left: 280px;
+   }
   .heading{
     position: relative;
     top: 75px;
+    left: 140px;
   }
   .developer{
     position: relative;
     top: 400px;
-    left: 20px;
+    left: 40px;
   }
   .content{
     position: relative;
     top: 450px;
     font-size: 22px;
      width: 100vh;
-     left: 30px;
+     left: 50px;
   }
   .More{
     position: relative;
@@ -934,9 +935,13 @@ left: 80px;
    right: 25%;
 
   }
+  .serviceheading{
+    position: relative;
+    left: 150px;
+  }
   .serviceheading1{
     position: relative;
-    left: 20px;
+    left: 170px;
   }
  
   .WebDesign{
@@ -945,7 +950,7 @@ left: 80px;
     display: flex;
     width: 100vh;
     position: relative;
-    top: 250px;
+    top: 180px;
   }
   .WebDesign0{
     width:50vh;
@@ -966,7 +971,7 @@ left: 80px;
     top: 300px;
     align-items: center;
     width: 100vh;
-    height: 120vh;
+    height: 130vh;
   }
   .skill-heading2{
     position: relative;
@@ -1000,10 +1005,11 @@ left: 80px;
   }
   .contact{
     width: 100vh;
+    height: 120vh;
    
   }
   .contact-heading1{
     position: relative;
-    left: 30px;
+    left: 40px;
   }
 } 
