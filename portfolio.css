@@ -857,9 +857,15 @@ left: 80px;
   .second-section{
     height: 120vh;
   }
+  .About{
+    height: 120vh;
+
+  }
+
   .links{
     display: none;
   }
+ 
   .photo-logo{
    position: relative;
    top: 100px;
@@ -904,6 +910,7 @@ left: 80px;
    .heading-2{
     position: relative;
     top: 20px;
+    right: 20px;
   }
   .heading{
     position: relative;
@@ -918,11 +925,13 @@ left: 80px;
     top: 450px;
     font-size: 22px;
      width: 100vh;
+     left: 10px;
   }
   .More{
     position: relative;
     top: 550px;
-   right: 30%;
+   right: 25%;
+
   }
   .WebDesign{
    align-items: center;
