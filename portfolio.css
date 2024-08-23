@@ -910,7 +910,7 @@ left: 80px;
    .heading-2{
     position: relative;
     top: 20px;
-    right: 20px;
+    right: 40px;
   }
   .heading{
     position: relative;
@@ -919,27 +919,33 @@ left: 80px;
   .developer{
     position: relative;
     top: 400px;
+    left: 20px;
   }
   .content{
     position: relative;
     top: 450px;
     font-size: 22px;
      width: 100vh;
-     left: 10px;
+     left: 30px;
   }
   .More{
     position: relative;
-    top: 550px;
+    top: 600px;
    right: 25%;
 
   }
+  .serviceheading1{
+    position: relative;
+    left: 20px;
+  }
+ 
   .WebDesign{
    align-items: center;
     flex-direction: column;
     display: flex;
     width: 100vh;
     position: relative;
-    top: 200px;
+    top: 400px;
   }
   .WebDesign button{
     position: relative;
