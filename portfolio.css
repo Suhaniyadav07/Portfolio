@@ -945,18 +945,38 @@ left: 80px;
     display: flex;
     width: 100vh;
     position: relative;
-    top: 400px;
+    top: 250px;
+  }
+  .WebDesign0{
+    width:50vh;
+  }
+  .WebDesign1{
+    width:50vh;
+  }
+  .WebDesign2{
+    width:50vh;
   }
   .WebDesign button{
     position: relative;
     left: 10px;
+    bottom: 20px;
   }
   .skills-section{
     position: relative;
     top: 300px;
     align-items: center;
     width: 100vh;
+    height: 120vh;
   }
+  .skill-heading2{
+    position: relative;
+    left: 20px;
+
+  }
+  .project{
+    height: 120vh;
+  }
+
   .project-heading{
    position: relative;
    top: 100px;
@@ -981,5 +1001,9 @@ left: 80px;
   .contact{
     width: 100vh;
    
+  }
+  .contact-heading1{
+    position: relative;
+    left: 30px;
   }
 } 
