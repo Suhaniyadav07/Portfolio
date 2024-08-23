@@ -218,14 +218,51 @@ text-decoration: none;
 margin-right: 20px;
 
 }
-.socialmedia{
-  width: 400px;
-   position: relative;
-  bottom: 220px;
-  left: 50px;
-  display: flex;
-  animation: socialmedia 4s forwards;
+.socialmedia a{
+ display: inline-flex;
+ justify-content: center;
+ align-items: center;
+ width: 4rem;
+ height: 4rem;
+ background:transparent ;
+ border:2px solid #6e94c4;
+ border-radius: 50%;
+ font-size: 2rem;
+ color: white;
+margin: 3rem 1.5rem 3rem 0;
+transition: .20s ease;
+text-decoration: none;
+position: relative; 
+bottom: 350px;
+left: 80px;
 }
+
+.socialmedia a:hover{
+ background:#262B40;
+ color: antiquewhite;
+ box-shadow:0 0 1rem #bac4d7; 
+}
+.btn{
+  display: inline-block;
+  padding: 1rem 2.8rem;
+
+  background-color: black;
+  font-size: 1.6rem;
+  color:white;
+  letter-spacing: .1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  position: relative;
+  bottom: 350px;
+  left: 80px;
+  text-decoration: none;
+  border:2px solid #6e94c4;
+  transition: .20s ease;
+}
+
+.btn:hover{
+  box-shadow:0 0 1rem #bac4d7;  
+ }
 
 
 
@@ -403,7 +440,6 @@ margin-right: 20px;
     color: white;
     background-color: #101316; 
     border-radius: 20%;
-   
     box-shadow: 0  10px 10px #1b1c1d;
     
    
@@ -847,7 +883,11 @@ margin-right: 20px;
   }
    .socialmedia{
     position: relative;
-    top: 70px;
+    top: 380px;
+  }
+  .btn{
+    position: relative;
+    top: 30px;
   }
   .photo-logo1 border{
     position: relative;
