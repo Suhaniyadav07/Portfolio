@@ -832,7 +832,8 @@ left: 80px;
   border: none;
   color: #f9f9f9;
 }
-@media (max-width:600px) {
+
+ @media (max-width:600px) {
   .second-section{
     font-size:50%;
   }
@@ -843,11 +844,11 @@ left: 80px;
  @media  (max-width:600px) {
   html{
     font-size: 100%;
-  }
+  } 
   
  
   
-}
+} 
  @media (max-width: 450px) {
 
   html{
@@ -910,7 +911,7 @@ left: 80px;
    .heading-2{
     position: relative;
     top: 20px;
-    left: 280px;
+    left: 300px;
    }
   .heading{
     position: relative;
@@ -932,7 +933,7 @@ left: 80px;
   .More{
     position: relative;
     top: 600px;
-   right: 25%;
+   right: 20%;
 
   }
   .serviceheading{
@@ -1011,5 +1012,8 @@ left: 80px;
   .contact-heading1{
     position: relative;
     left: 40px;
+  }
+  textarea{
+    width: 90%;
   }
 } 
